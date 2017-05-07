@@ -1,0 +1,28 @@
+{
+  "name": "seminar",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "firebase": "^3.8.0",
+    "react": "16.0.0-alpha.6",
+    "react-native": "0.43.3",
+    "react-native-google-maps-directions": "^1.1.0",
+    "react-native-modal-picker": "0.0.16",
+    "react-native-picker-android": "^0.3.8",
+    "react-native-simple-sound": "^1.0.0",
+    "react-native-ui-xg": "0.0.4"
+  },
+  "devDependencies": {
+    "babel-jest": "19.0.0",
+    "babel-preset-react-native": "1.9.1",
+    "jest": "19.0.2",
+    "react-test-renderer": "16.0.0-alpha.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
